@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 	private String v1;
 	
 	
-	
+	private String v2;
 	
 	@RequestMapping("/")
 	public String requestMethod(){
