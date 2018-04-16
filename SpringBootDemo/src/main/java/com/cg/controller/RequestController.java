@@ -7,12 +7,13 @@ import org.springframework.web.bind.annotation.RestController;
  public class RequestController{
 	
 	
+	private String v1;
+	
+	
 	@RequestMapping("/")
 	public String requestMethod(){
 		
-		//this is first controller
 		
-		String v1;
 		
 		return "Hello Capgemini";
 		
