@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 	
 	
 	private String v2;
+
+
+private String v3;
 	
 	@RequestMapping("/")
 	public String requestMethod(){
